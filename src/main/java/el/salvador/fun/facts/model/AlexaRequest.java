@@ -1,14 +1,24 @@
 package el.salvador.fun.facts.model;
 
+
 public class AlexaRequest {
 
-    private String userRequest;
 
-    public String getUserRequest() {
-        return userRequest;
+    private String intentType;
+
+
+    public AlexaRequest() {
     }
 
-    public void setUserRequest(String userRequest) {
-        this.userRequest = userRequest;
+    public AlexaRequest(String intentType) {
+        this.intentType = intentType;
+    }
+
+    public String getIntentType() {
+        return intentType;
+    }
+
+    public void setIntentType(String intentType) {
+        this.intentType = intentType;
     }
 }

@@ -2,7 +2,9 @@ package el.salvador.fun.facts.model;
 
 public enum IntentEnum {
 
-    LocationIntent("LocationIntent");
+    LocationIntent("LocationIntent"),
+    FoodIntent("FoodIntent"),
+    CultureIntent("CultureIntent");
 
     private final String intentName;
 

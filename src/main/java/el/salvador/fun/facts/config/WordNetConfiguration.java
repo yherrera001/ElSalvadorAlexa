@@ -10,6 +10,8 @@ import java.util.*;
 @Configuration
 public class WordNetConfiguration {
 
+    //CANNOT USE FOR THIS PROJECT
+
     @Bean
     public WordNetDatabase wordNetDatabase(){
         return WordNetDatabase.getFileInstance();
@@ -18,22 +20,22 @@ public class WordNetConfiguration {
     @Bean
     public Set<String> synsetsForLocation(WordNetDatabase wordNetDatabase){
         Synset[] synsets = wordNetDatabase.getSynsets("location");
-        Set<String> allSynonysms = new HashSet<>();
+        Set<String> allSynonyms = new HashSet<>();
         for (Synset synset : synsets) {
             String[] wordForms = synset.getWordForms();
-            allSynonysms.addAll(Arrays.asList(wordForms));
+            allSynonyms.addAll(Arrays.asList(wordForms));
         }
-        return allSynonysms;
+        return allSynonyms;
     }
 
     @Bean
     public Set<String> synsetsForFood(WordNetDatabase wordNetDatabase){
         Synset[] synsets = wordNetDatabase.getSynsets("food");
-        Set<String> allSynonysms = new HashSet<>();
+        Set<String> allSynonyms = new HashSet<>();
         for (Synset synset : synsets) {
             String[] wordForms = synset.getWordForms();
-            allSynonysms.addAll(Arrays.asList(wordForms));
+            allSynonyms.addAll(Arrays.asList(wordForms));
         }
-        return allSynonysms;
+        return allSynonyms;
     }
 }
