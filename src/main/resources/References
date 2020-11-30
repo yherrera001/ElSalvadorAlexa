@@ -1,0 +1,24 @@
+-This helped how to use the @Query annotation in Spring Data JPA to execute both JPQL and native SQL queries:
+https://www.baeldung.com/spring-data-jpa-query
+https://docs.netapp.com/ontap-9/index.jsp?topic=%2Fcom.netapp.doc.dot-cm-sag%2FGUID-7F45AB95-6D7A-40DB-8A69-A75A9955BC15.html
+https://thorben-janssen.com/spring-data-jpa-query-annotation/
+https://www.baeldung.com/jpa-query-parameters
+
+-Helped with created the sql files
+https://guides.emberjs.com/release/routing/query-params/
+https://howtodoinjava.com/java/jdbc/jdbc-sql-insert-query-example/
+
+-Enable web path to access H2 console. Also reminded me how to login to the database:
+https://medium.com/@harittweets/how-to-connect-to-h2-database-during-development-testing-using-spring-boot-44bbb287570
+
+-Needed query so that both the user and the database can always exchange information as long as they ‘speak’ the same language:
+https://www.hostinger.com/tutorials/what-is-a-query#:~:text=In%20regular%20English%2C%20a%20query%20means%20a%20request%20for%20information.&text='%20You%20write%20your%20query%20based,Structured%20Query%20Language%20(SQL).
+
+-This helped me use the random functionality
+https://stackoverflow.com/questions/580639/how-to-randomly-select-rows-in-sql
+
+-Why I used an interface in my service
+https://www.adam-bien.com/roller/abien/entry/service_s_new_serviceimpl_why
+https://stackoverflow.com/questions/37541168/code-architecture-of-service-interface-and-service-impl-classes-spring
+
+
